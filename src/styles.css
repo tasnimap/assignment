@@ -1,0 +1,130 @@
+body {
+  font-family: "Segoe UI", sans-serif;
+  background-color: #f4f4f9;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+}
+
+.main-title {
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 0.5rem;
+  color: #3f3d56;
+}
+
+.subtitle {
+  text-align: center;
+  font-size: 1rem;
+  margin-bottom: 2rem;
+  color: #6a6a6a;
+}
+
+.features {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 2rem;
+}
+
+.features span {
+  background: #e0e7ff;
+  padding: 5px 10px;
+  border-radius: 20px;
+  font-size: 0.9rem;
+}
+
+.book-card {
+  background-color: white;
+  border-radius: 10px;
+  padding: 1.2rem;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+  margin-bottom: 1.5rem;
+  transition: transform 0.2s;
+}
+
+.book-card:hover {
+  transform: scale(1.01);
+}
+
+.author-link {
+  color: #4a90e2;
+  text-decoration: none;
+}
+
+.author-link:hover {
+  text-decoration: underline;
+}
+
+.book-desc {
+  margin-top: 10px;
+  color: #555;
+}
+
+.reaction-bar {
+  margin-top: 10px;
+}
+
+.reaction-btn {
+  font-size: 1.4rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.reaction-btn.active {
+  color: #d10000;
+  transform: scale(1.2);
+}
+
+.comment-section {
+  margin-top: 15px;
+}
+
+.comment-box {
+  width: 100%;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+.comment-display {
+  margin-top: 8px;
+  background: #f1f1f1;
+  padding: 8px;
+  border-radius: 6px;
+}
+
+.pagination {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.page-btn {
+  margin: 0 5px;
+  padding: 5px 10px;
+  background: white;
+  border: 1px solid #aaa;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.page-btn:hover {
+  background: #dbeafe;
+}
+
+.author-page {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
